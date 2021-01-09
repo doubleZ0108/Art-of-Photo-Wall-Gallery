@@ -109,12 +109,13 @@ def get_all_images(path):
 
 if __name__ == '__main__':
 
-    path = 'img/'  # 图片文件夹路径
-
-    result = 'img/result.png'  # 图片保存路径
-
-
-    imgs = get_all_images(path)
-
-    start(imgs)
-    print('最后图片尺寸--->', Image.open(result).size)
+    # path = 'img/'  # 图片文件夹路径
+    #
+    # result = 'img/result.png'  # 图片保存路径
+    #
+    #
+    # imgs = get_all_images(path)
+    #
+    # start(imgs)
+    # print('最后图片尺寸--->', Image.open(result).size)
+    print([_ for _ in range(11)])

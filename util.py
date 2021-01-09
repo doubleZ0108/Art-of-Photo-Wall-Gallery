@@ -33,14 +33,10 @@ def get_all_images(path):
     result.sort()
     return result
 
-def map_level(level):
-    level *= 5
+def map_level(level, factor=15):
+    level *= factor
     return level if level%2!=0 else level + 1
-'''
-_blur
-    高斯模糊
-    Gaussian Blur
-'''
+
 def blur(img, kernel):
     '''
 
@@ -48,6 +44,7 @@ def blur(img, kernel):
     :param kernel: must be odd number
     :return:
     '''
+
     img = cv2.cvtColor(np.asarray(img),cv2.COLOR_RGB2BGR)
 
     kernel_size = (kernel, kernel)
