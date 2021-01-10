@@ -28,16 +28,16 @@
 
 2. 将所有原始图片放入`img/`文件夹中
 
-3. 执行`generate.py`脚本，参数：
+3. 执行`src/generate.py`脚本，参数：
 
    - `-s` `--size`：统一调整原始图片为该尺寸(默认为400*400)  [🌰 --size 400 300]
    - `-b` `--blur`：高斯模糊等级(0~10，默认为6)  [🌰 --blur 4]
 
    ```bash
-   python generate.py		# 默认参数生成照片墙
-   python generate.py -s 300 300	# 照片墙中每个照片尺寸为300*300
-   python generate.py -b 10	# 照片墙虚化等级为10
-   python generate.py --size 400 300 --blur 4
+   python src/generate.py		# 默认参数生成照片墙
+   python src/generate.py -s 300 300	# 照片墙中每个照片尺寸为300*300
+   python src/generate.py -b 10	# 照片墙虚化等级为10
+   python src/generate.py --size 400 300 --blur 4
    ```
 
 4. 结果图片将保存为`img/result/result.png`
@@ -57,15 +57,16 @@
 ```bash
 .
 ├── README.md
-├── generate.py      # main function for generate
-├── img              # original image
-│   ├── result       # result image
+├── img			# original image
+│   ├── result		# result image
 │   │   └── result.png
 │   ├── test-0.jpg
 │   ├── test-1.jpg
-│   ├── ......
+│   ├── ...
 ├── requirements.txt
-└── util.py
+└── src
+    ├── generate.py	# main function for generate
+    └── util.py
 ```
 
 <br>
