@@ -36,9 +36,9 @@
    - `-b` `--blur`：高斯模糊等级(0~10，默认为6)  [🌰 --blur 4]
 
    ```bash
-   python src/generate.py		# 默认参数生成照片墙
+   python src/generate.py		        # 默认参数生成照片墙
    python src/generate.py -s 300 300	# 照片墙中每个照片尺寸为300*300
-   python src/generate.py -b 10	# 照片墙虚化等级为10
+   python src/generate.py -b 10	        # 照片墙虚化等级为10
    python src/generate.py --size 400 300 --blur 4
    ```
 
