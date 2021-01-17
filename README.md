@@ -1,5 +1,7 @@
 # 照片墙
 
+[中文(zh-cn)](https://github.com/doubleZ0108/Art-of-Photo-Wall-Gallery/blob/master/README.md) | [English(en)](https://github.com/doubleZ0108/Art-of-Photo-Wall-Gallery/blob/master/README_en.md)
+
 * [写在前面](#写在前面)
 * [如何运行](#如何运行)
 * [环境配置](#环境配置)
