@@ -52,6 +52,10 @@
 
 ## Project Structure
 
+- **OS**：macOS Catalina 10.15.7
+- **Python env**：Python 3.7.4
+- **Dependencies**：numpy, opencv_python, Pillow
+
 ```bash
 .
 ├── README.md

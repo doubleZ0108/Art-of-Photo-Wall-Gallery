@@ -54,20 +54,20 @@
 
 - **操作系统**：macOS Catalina 10.15.7
 - **python环境**：Python 3.7.4
-- **主要依赖**：numpy\==1.18.1, opencv_python\==3.4.2.16, Pillow==8.1.0
+- **主要依赖**：numpy, opencv_python, Pillow
 
 ```bash
 .
 ├── README.md
-├── img			# original image
-│   ├── result		# result image
+├── img			# 原始图片文件夹
+│   ├── result		# 最终照片墙
 │   │   └── result.png
 │   ├── test-0.jpg
 │   ├── test-1.jpg
 │   ├── ...
 ├── requirements.txt
 └── src
-    ├── generate.py	# main function for generate
+    ├── generate.py	# 核心代码文件
     └── util.py
 ```
 
